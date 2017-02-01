@@ -1,0 +1,106 @@
+body
+{
+  padding: 0;
+  margin: 0;
+  background-image: url('../images/campestre-perfil.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+
+}
+header
+{
+  width: 100%;
+  padding: 20px 0;
+  background: rgba(0,0,0,.6);
+  position: fixed;
+  top:0;
+  z-index: 1;
+  float: right;
+}
+footer p
+{
+  text-align: center;
+}
+footer hr{
+  width: 100%;
+  background-color: black;
+  height: 2px;
+}
+footer li a
+{
+  color: white;
+}
+.banner
+{
+  background-image: url(../images/carne1.jpg);
+  width: 100%;
+  height: 600px;
+  /*background-color: black;*/
+  /*background-repeat: no-repeat;*/
+  background-size: cover;
+  background-position: center;
+  margin-top: 190px;
+  position: relative;
+}
+.titulo{
+  color: white;
+  font-size: 48px;
+  padding-top: 0;
+  position: relative;
+  top: 50px;
+  font-family: 'Sansita', sans-serif;
+}
+.subtitulo
+{
+  text-align: center;
+
+}
+.content
+{
+  padding: 20px 0;
+}
+.size
+{
+  width: 150px;
+  height: 150px;
+}
+.font
+{
+  font-size: 40px;
+  padding: 10px 0;
+  color: white;
+  font-family: 'Farsan', cursive;
+  text-align: right;
+
+}
+#contacto
+{
+  color:white;
+  text-align: right;
+}
+#texto1
+{
+  color: white;
+  font-size: 24px;
+  position: relative;
+  top: 80px;
+  text-align: justify;
+  font-family: 'Crete Round', serif;
+}
+#posicion1{
+  position: relative;
+  float: left;
+  text-decoration: none;
+  width: 50%;
+}
+#posicion2
+{
+  float: right;
+  width: 50%;
+  text-decoration: none;
+}
+#color
+{
+  color:white;
+}
